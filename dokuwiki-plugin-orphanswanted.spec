@@ -9,6 +9,7 @@ Source0:	http://github.com/downloads/andywebber/dokuwiki-plugin-orphanswanted/or
 # Source0-md5:	50e45168d9ac8d3bf7e663f4f274f57a
 URL:		http://www.dokuwiki.org/plugin:orphanswanted
 BuildRequires:	rpmbuild(macros) >= 1.520
+BuildRequires:	unzip
 Requires:	dokuwiki >= 20091225
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
