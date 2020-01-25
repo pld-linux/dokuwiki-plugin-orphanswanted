@@ -2,7 +2,6 @@
 %define		ver		%(echo %{subver} | tr -d -)
 %define		plugin		orphanswanted
 %define		php_min_version 5.3.0
-%include	/usr/lib/rpm/macros.php
 Summary:	DokuWiki plugin to find orphan pages, Wanted pages with reference counts
 Name:		dokuwiki-plugin-%{plugin}
 Version:	%{ver}
